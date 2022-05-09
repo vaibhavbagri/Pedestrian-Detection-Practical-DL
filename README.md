@@ -110,24 +110,24 @@ Testing model with the weights obtained after training on CityPersons.
 1) Testing Cascade-RCNN model on CityPersons dataset
 
 ```
-python tools/test_city_person.py configs/cityperson/cascade_hrnet.py work_dirs/cityperson_cascade_rcnn_hrnetv2p_w32/epoch_ 20 21 --out result_citypersons_cascade.json --mean_teacher
+python tools/test_city_person.py configs/cityperson/cascade_hrnet.py work_dirs/cityperson_cascade_rcnn/epoch_ 20 21 --out result_citypersons_cascade.json --mean_teacher
 ```
 
 2) Testing Cascade-RCNN model on EuroCityPersons dataset
 
 ```
-python tools/test_euroCity.py configs/eurocity/cascade_hrnet.py work_dirs/eurocity_cascade_rcnn_hrnetv2p_w32/epoch_ 20 21 --out result_eurocity_cascade.json --mean_teacher
+python tools/test_euroCity.py configs/eurocity/cascade_hrnet.py work_dirs/cityperson_cascade_rcnn/epoch_ 20 21 --mean_teacher
 ```
 3) Testing CSP model on CityPersons dataset
 
 ```
-python tools/test_city_person.py configs/cityperson/csp_r50.py work_dirs/cityperson_csp_r50v2p_w32/epoch_ 20 21 --out result_citypersons_csp.json --mean_teacher
+python tools/test_city_person.py configs/cityperson/csp_r50.py work_dirs/cityperson_csp/epoch_ 20 21 --out result_citypersons_csp.json --mean_teacher
 ```
 
 4) Testing CSP model on EuroCityPersons dataset
 
 ```
-python tools/test_euroCity.py configs/eurocity/csp_r50.py work_dirs/eurocity_csp_r50v2p_w32/epoch_ 20 21 --out result_eurocity_csp.json --mean_teacher
+python tools/test_euroCity.py configs/eurocity/csp_r50.py work_dirs/cityperson_csp/epoch_ 20 21 --mean_teacher
 ```
 
 ## Results
@@ -141,39 +141,39 @@ Finally, the model performance comparison is apparent from the table below:
 | Cascade RCNN | EuroCity Persons | 20.31%     | 42.40% | 49.60% | 38.68% |
 | CSP          | EuroCity Persons | 19.60%     | 52.35% | 58.41% | 49.83% |
 
-### Training curves
+### Training Curves
 
 The training loss and accuracy curves can be observed as below.
 
-CSP training loss
+**CSP Training Loss**
 
 ![A](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_loss.png) 
 
-CSP training acc
+**CSP Training Accuracy**
 
 ![B](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_acc.png)
 
-Cascade RCNN training loss
+**Cascade RCNN Training Loss**
 
 ![C](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_loss.png)
 
-Cascade RCNN training acc
+**Cascade RCNN Training Accuracy**
 
 ![D](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_acc.png)
 
 
 ### Sample Observations
 
-Cascade-RCNN on CityPersons Dataset
+**Cascade-RCNN on CityPersons Dataset**
 ![Cascade RCNN on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_test%20(1).png)
 
-CSP on CityPersons Dataset
+**CSP on CityPersons Dataset**
 ![CSP on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_test%20(1).png)
 
-Cascade-RCNN on EuroCityPersons Dataset
+**Cascade-RCNN on EuroCityPersons Dataset**
 ![Cascade RCNN on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_cascade_test%20(1).png)
 
-CSP on EuroCityPersons Dataset
+**CSP on EuroCityPersons Dataset**
 ![CSP on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_csp_test%20(1).png)
 
 
