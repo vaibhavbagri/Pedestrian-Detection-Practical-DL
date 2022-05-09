@@ -142,11 +142,11 @@ Finally, the model performance comparison is apparent from the table below:
 | Cascade RCNN | EuroCity Persons | 20.31%     | 42.40% | 49.60% | 38.68% |
 | CSP          | EuroCity Persons | 19.60%     | 52.35% | 58.41% | 49.83% |
 
-#### Training curves
+### Training curves
 
 
 
-#### Sample Observations
+### Sample Observations
 
 Cascade-RCNN on CityPersons Dataset
 ![Cascade RCNN on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_test%20(1).png)
