@@ -147,15 +147,19 @@ Finally, the model performance comparison is apparent from the table below:
 The training loss and accuracy curves can be observed as below.
 
 CSP training loss
+
 ![A](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_loss.png) 
 
 CSP training acc
+
 ![B](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_acc.png)
 
 Cascade RCNN training loss
+
 ![C](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_loss.png)
 
 Cascade RCNN training acc
+
 ![D](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_acc.png)
 
 
