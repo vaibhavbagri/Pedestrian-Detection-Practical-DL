@@ -147,8 +147,8 @@ Finally, the model performance comparison is apparent from the table below:
 The training loss and accuracy curves can be observed as below.
 
 |              | Loss       | Accuracy |
-| CSP          | [](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_loss.png)       | [](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_acc.png) |
-| Cascade RCNN | [](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_loss.png)   | [](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_acc.png) |
+| CSP          | [A](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_loss.png) | [B](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_acc.png) |
+| Cascade RCNN | [C](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_loss.png) | [D](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_acc.png) |
 
 
 ### Sample Observations
