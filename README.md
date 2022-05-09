@@ -87,7 +87,6 @@ python -m zipfile -e ECP_day_img_val.zip /datasets/EuroCity/
 
 python -m zipfile -e ECP_day_labels_val.zip /datasets/EuroCity/
 
-pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu110/torch1.6.0/index.html
 ```
 
 ### Model Training
