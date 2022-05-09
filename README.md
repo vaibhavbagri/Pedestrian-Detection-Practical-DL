@@ -133,14 +133,6 @@ python tools/test_euroCity.py configs/eurocity/csp_r50.py work_dirs/eurocity_csp
 
 ## Results
 
-![Cascade RCNN on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_test%20(1).png)
-
-![CSP on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_test%20(1).png)
-
-![Cascade RCNN on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_cascade_test%20(1).png)
-
-![CSP on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_csp_test%20(1).png)
-
 Finally, the model performance comparison is apparent from the table below:
 
 | Model        | Test Dataset     | Reasonable | Small  | Heavy  | All    |
@@ -149,3 +141,23 @@ Finally, the model performance comparison is apparent from the table below:
 | CSP          | CityScapes       | 18.39%     | 27.21% | 49.14% | 45.29% |
 | Cascade RCNN | EuroCity Persons | 20.31%     | 42.40% | 49.60% | 38.68% |
 | CSP          | EuroCity Persons | 19.60%     | 52.35% | 58.41% | 49.83% |
+
+#### Training curves
+
+
+
+#### Sample Observations
+
+Cascade-RCNN on CityPersons Dataset
+![Cascade RCNN on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_test%20(1).png)
+
+CSP on CityPersons Dataset
+![CSP on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_test%20(1).png)
+
+Cascade-RCNN on EuroCityPersons Dataset
+![Cascade RCNN on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_cascade_test%20(1).png)
+
+CSP on EuroCityPersons Dataset
+![CSP on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_csp_test%20(1).png)
+
+
