@@ -36,9 +36,9 @@ conda activate open-mmlab
 
 conda install cython
 
-git clone <INSERT_OUR_REPO>
+git clone https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL.git
 
-cd <REPO_NAME>
+cd Pedestrian-Detection-Practical-DL
 
 pip install torch==1.4.0 torchvision==0.5.0
 
@@ -71,9 +71,7 @@ find val -type f -print0 | xargs -0 mv -t val_all_in_folder
 Prepare the EuroCityPersons dataset using the following steps.
 
 ```
-cd ..
-cd ..
-cd ..
+cd ~/Pedestrian-Detection-Practical-DL
 
 wget --auth-no-challenge --user=<enter_username> --password=<enter_password> --output-document=ECP_day_img_train.zip http://eurocity-dataset.tudelft.nl//eval/downloadFiles/downloadFile/detection?file=ecpdata%2Fecpdataset_v1%2FECP_day_img_train.zip
 
@@ -176,4 +174,18 @@ The training loss and accuracy curves can be observed as below.
 **CSP on EuroCityPersons Dataset**
 ![CSP on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_csp_test%20(1).png)
 
+## References
 
+Cascade RCNN : https://arxiv.org/abs/1712.00726
+
+CSP : https://ieeexplore.ieee.org/document/8953311
+
+MMDetection : https://github.com/open-mmlab/mmdetection
+
+Pedestron : https://github.com/hasanirtiza/Pedestron
+
+CityScapes : https://www.cityscapes-dataset.com/
+
+CityPersons : https://github.com/cvgroup-njust/CityPersons
+
+EuroCity Persons : https://eurocity-dataset.tudelft.nl/eval/overview/statistics
