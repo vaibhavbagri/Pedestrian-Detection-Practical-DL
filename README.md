@@ -133,13 +133,13 @@ python tools/test_euroCity.py configs/eurocity/csp_r50.py work_dirs/eurocity_csp
 
 ## Results
 
-![Cascade RCNN on CityPersons](/Results/cp_cascade_test (1).png)
+![Cascade RCNN on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_cascade_test%20(1).png)
 
-![CSP on CityPersons](/Results/cp_csp_test (1).png)
+![CSP on CityPersons](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/cp_csp_test%20(1).png)
 
-![Cascade RCNN on EuroCity](/Results/ecp_cascade_test (1).png)
+![Cascade RCNN on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_cascade_test%20(1).png)
 
-![CSP on EuroCity](/Results/ecp_csp_test (1).png)
+![CSP on EuroCity](https://github.com/vaibhavbagri/Pedestrian-Detection-Practical-DL/blob/main/Results/ecp_csp_test%20(1).png)
 
 Finally, the model performance comparison is apparent from the table below:
 
